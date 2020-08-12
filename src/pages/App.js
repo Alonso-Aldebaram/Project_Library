@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/App.css';
-import Blioteca from '../comp/Biblioteca'
 import Biblioteca from '../comp/Biblioteca';
 
 function App() {
