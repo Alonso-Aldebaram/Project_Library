@@ -21,11 +21,12 @@ state={
             <>
             <Container>
             <br/>
-            <Button color="primary">Nuevo Libro</Button>
+            <Button color="success">Nuevo Libro</Button>
             <br/><br/>
             <Table>
                 <thead>
                     <tr>
+                        <th>#</th>
                         <th>Libro</th>
                         <th>Autor</th>
                         <th>Paginas</th>
@@ -39,6 +40,7 @@ state={
                         <td>{elemento.id}</td>
                         <td>{elemento.libro}</td>
                         <td>{elemento.autor}</td>
+                        <td>{elemento.paginas}</td>
                         <td>{elemento.estado}</td>
                         <td><Button color="primary">Editar</Button>{"  "}
                             <Button color="danger">Eliminar</Button></td>
@@ -47,6 +49,35 @@ state={
                 </tbody>
             </Table>
             </Container>
+            <Modal>
+                <ModalHeader>
+                    <div>
+                        <h3>Insertar Libro</h3>
+                    </div>
+                </ModalHeader>
+
+                <ModalBody>
+                    <FormGroup>
+                        <label>Id:</label>
+                        <input classname="formu-input" name="id" type="text"/>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <label>Libro:</label>
+                        <input className="formu-input" name="libro" type="text"/>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <label>Autor:</label>
+                        <input className="formu-input" name="autor" type="text"/>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <label>Paginas:</label>
+                        <input className="formu-input" name="autor" type="text"/>
+                    </FormGroup>
+                </ModalBody>
+            </Modal>
             </>
         )
     }
