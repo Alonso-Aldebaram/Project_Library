@@ -1,21 +1,13 @@
 import React from 'react';
 import '../css/App.css';
-import Book from '../comp/Book'
-import AddBook from '../comp/AddBook';
+import Blioteca from '../comp/Biblioteca'
+import Biblioteca from '../comp/Biblioteca';
 
 function App() {
   return (
     <div className="App">
-      <h1>BIBLIOTECA VIRTUAL EN REACT</h1>
-      <AddBook/>
-      <Book titulo="CLEAN CODE" 
-            autor="Robert C. Martin"
-            page="255"
-            state="Si"/>
-      <Book titulo="CODERS AT WORK" 
-            autor="Peter Seibel"
-            page="634"
-            state="No"/>
+      <h1>BIBLIOTECA VIRTUAL DE ABRAHAM</h1>
+      <Biblioteca/>
     </div>
   );
 }
