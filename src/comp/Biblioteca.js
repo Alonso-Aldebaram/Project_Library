@@ -88,7 +88,7 @@ eliminar=(dato)=>{
             <>
             <Container>
             <br/>
-            <Button color="success" onClick={()=>this.mostrarModalInsertar()}>Nuevo Libro</Button>
+            <Button color="success" className="new-book" onClick={()=>this.mostrarModalInsertar()}>Nuevo Libro</Button>
             <br/><br/>
             <Table>
                 <thead>
