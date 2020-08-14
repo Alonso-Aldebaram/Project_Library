@@ -1,0 +1,18 @@
+body {
+    background-image:linear-gradient(135deg,#6b15fc 0%, #fa0ecb 100%);
+}
+.App {
+    text-align: center;
+    height: 100vh;
+}
+.container {
+    background: #fff;
+    box-shadow: #222338 10px 10px 30px 1px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.titulo {
+    margin: 40px 0px 40px 0px;
+    color: #fff;
+    font-family: 'Nunito';
+}
