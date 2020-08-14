@@ -57,3 +57,6 @@ body {
     background: #00eeee !important;
     color: #fff !important;
   }
+  .new-book:focus {
+    box-shadow: none;
+}
