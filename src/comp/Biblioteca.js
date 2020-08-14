@@ -7,9 +7,6 @@ const data = [
     { id: 1, libro: "CLEAN CODER", autor: "Robert C. Martin", paginas: "234", estado: "No leido" },
     { id: 2, libro: "YOU DON’T KNOW JAVASCRIPT", autor: "Kyle Simpson", paginas: "655", estado: "No leido" },
     { id: 3, libro: "ELOQUENT JAVASCRIPT", autor: "Marijn Haverbeke", paginas: "529", estado: "No leido" },
-    { id: 4, libro: "THE PRAGMATIC PROGRAMMER", autor: "Andrew Hunt y David Thomas", paginas: "789", estado: "No leido" },
-    { id: 5, libro: "DESIGN PATTERNS", autor: "Erich Gamma", paginas: "425", estado: "No leido"},
-    { id: 6, libro: "USER STORY MAPPING", autor: "Jeff Patton", paginas: "555", estado: "No leido" },
   ];
 
 class Biblioteca extends React.Component{
@@ -192,7 +189,7 @@ eliminar=(dato)=>{
 
                     <FormGroup>
                         <label>Paginas:</label>
-                        <input className="formu-input" name="autor" type="text" onChange={this.handleChange} value={this.state.form.paginas}/>
+                        <input className="formu-input" name="paginas" type="text" onChange={this.handleChange} value={this.state.form.paginas}/>
                     </FormGroup>
 
                     <h5>Estado de lectura:</h5>
