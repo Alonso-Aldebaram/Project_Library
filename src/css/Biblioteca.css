@@ -60,3 +60,26 @@ body {
   .new-book:focus {
     box-shadow: none;
 }
+.modal-header {
+    font-family: 'Nunito';
+    background: #6b15fc;
+    color: #fff;
+    justify-content: center !important;
+}
+.modal-footer {
+    font-family: 'Nunito';
+}
+input[type="text"] {
+    margin: 0px 10px 0px 10px;
+    position: absolute;
+    left: 85px;
+    width: 20rem;
+} {
+    margin: 0px 10px 0px 10px;
+    position: absolute;
+    left: 85px;
+    width: 20rem;
+}
+.modal-body {
+    font-family: 'Nunito';
+}
